@@ -450,7 +450,7 @@ document.getElementById("demo").innerHTML = days + "<font color='green'> दि�
 
 			
 			<div id="formBox" class="formBox" style="left:6%;right:6%">
-			<input type="text" name="name" class="nameTextBox"id="nameTextBox" placeholder="👉 यहाँ अपना नाम लिखें">
+			<input type="text" name="name" class="nameTextBox"id="nameTextBox" placeholder="👉 write your name here">
 			<div class="goButton" id="goButton" onclick="if (!window.__cfRLUnblockHandlers) return false; createGreeting()" data-cf-modified-3c06e57a7ac22d0bc0d6a22b-="">
 	    	👉देखे
 			</div>
@@ -679,7 +679,7 @@ if (name.length !== 0) {
  window.scrollTo(0,0);
 
  }else {
- alert ("कृपया अपना नाम नीचे लिखे 👇👇");
+ alert ("please write your name here 👇👇");
  document.getElementById("nameTextBox").focus();
  }
  }
@@ -687,9 +687,9 @@ if (name.length !== 0) {
   var shareActionWA = function() {
  var shareString = "";
  var whatsappHref;
-  shareString += "*स्वतत्रंता दिवस* के मौके पर %0A";
+  shareString += "*స్వాతంత్ర్య దినోత్సవం సందర్భంగా* %0A";
  shareString += "*"+sname+"*";
- shareString +=" ने आपके लिए कुछ खास भेजा है जल्दी से ओपन करो ओपन करने के बाद *तितली* को टच करो %0A👇👇👇👇 %0A"
+ shareString +=" మీకు ప్రత్యేకమైనదాన్ని పంపారు. త్వరగా తెరవండి. తెరిచిన తర్వాత, * సీతాకోకచిలుకను తాకండి * %0A👇👇👇👇 %0A"
  shareString +=(window.location.href.split("?")[0] + "?n=" + sname).replace("#", "").replace(/ /g, "_");
  
 
